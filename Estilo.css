@@ -1,0 +1,185 @@
+/*  Definindo fundo da pagina */
+body{
+  background-color: black;
+}
+/* formatando as tags p*/
+p{
+  color: white;
+  font-size: 20px;
+}
+/* formatando as tags img */
+img{
+  width: 200px;
+  height: auto;
+}
+/* formatando as tags ul*/
+ul{
+  text-align: center;
+  
+}
+/* formatando as tags li*/
+li{
+display: inline-block;
+margin: 12px;
+}
+/* formatando a classe estrelas */
+.estrelas{
+  width: 70px;
+  height: auto;
+}
+.Monitor{
+  width: 228px;
+  height: auto;
+}
+.Descricao{
+  color: white; 
+  font-size: 15px;
+  text-align: center;
+}
+.preco{
+  color: chartreuse;
+}
+/* REF BARRA DE PESQUISA*/
+          .barra-pesquisa {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            align-items: center;
+            background-color: #1a1a1a;
+            border: 2px solid #00ff99;
+            border-radius: 20px; /* arredonda as bordas */
+            padding:0 30px;
+            width: 420px;
+            height: 42px;
+          }
+
+          .icone-lupa {
+            color: #00eaff;
+            font-size: 18px;
+            margin-right: 10px;
+          }
+
+          .barra-pesquisa input {
+            flex: 1;
+            border: none;
+            background: transparent;
+            color: white;
+            font-size: 16px;
+            outline: none;
+          }
+
+          .barra-pesquisa input::placeholder {
+            color: #888;
+          }
+.titulop{
+  color: #00ff99;
+  font-size: 30px;
+  text-align: center ;
+  margin-top: 20px;
+}
+.produtos {
+  background: linear-gradient(145deg, #0d0d0d, #1a1a1a); /* fundo com leve gradiente */
+  border: 2px solid #00ff99; /* verde neon nas bordas */
+  border-radius: 16px;
+  padding: 40px 20px;
+  margin: 40px auto;
+  max-width: 1000px;
+  box-shadow: 0 0 20px rgba(0, 255, 150, 0.4); /* glow verdinho ao redor */
+  backdrop-filter: blur(4px); /* dá um efeito de vidro leve, se tiver algo por trás */
+}
+/* Estrutura de layout para as ofertas */
+.ofertas {
+  display: flex;
+  flex-wrap: wrap; /* Para permitir que os produtos quebrem de linha quando necessário */
+  justify-content: space-evenly; /* Alinha os produtos com espaçamento igual */
+}
+
+/* Preço dos produtos */
+.preco {
+  color: chartreuse;
+}
+
+/* Preços com descontos e cartão */
+.preco-container {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.preco-original {
+  color: #ff4c4c;
+  text-decoration: line-through;
+  font-size: 16px;
+  margin: 4px 0;
+}
+
+.preco-pix {
+  color: #00ff99;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 4px 0;
+}
+
+.preco-cartao {
+  color: #ffffff;
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+.badge-pix {
+  background-color: #00ff99;
+  color: black;
+  padding: 2px 6px;
+  border-radius: 8px;
+  font-size: 12px;
+  margin-left: 8px;
+}
+/* */
+.card-produto{
+  background-color: #111;
+  border: 1px solid #00ff99;
+  border-radius: 12px;
+  padding: 16px;
+  width: 250px;
+  height: 450px;
+  box-shadow: 0 0 10px rgba(0, 255, 150, 0.2);
+  text-align: center;
+  flex-direction: column; /* Organiza os itens do produto na vertical */
+  justify-content: space-between; /* Para distribuir os itens de forma equilibrada */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave para transform e box-shadow */
+}
+.card-produto:hover{
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0, 255, 150, 0.4); /* Aumenta o glow quando o item está "hovered" */
+  transform: translatey(10px); /* Move o item para cima */
+}
+/* Footer */
+footer {
+  background-color: #111;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex; /* Usando flexbox para organizar os itens na horizontal */
+  justify-content: space-between; /* Espaço entre os itens */
+}
+
+footer li {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #00ff99;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

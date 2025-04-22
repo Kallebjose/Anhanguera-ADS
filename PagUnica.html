@@ -1,0 +1,138 @@
+  <!DOCTYPE html>
+  <html lang="pt-br">
+    <head>
+      <!-- linkando o html e css e definindo o relacionamento-->
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" type="image/x-icon" href="CORETECHLOGO-removebg-preview.png">
+      <!-- definindo caracteres especiais(lingua portuguesa) -->
+    <meta charset="UTF-8">
+      <!-- definindo o tamanho da tela -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Da o nome da pagina -->
+    <title>CoreTech</title>
+  </head>
+<body>
+  <!-- xxxx -->
+    <!-- Definindo a logo -->
+    <a href="PagUnica.html"> 
+      <img src="CORETECHLOGO-removebg-preview.png"> 
+         </a>
+    <!-- Da a barra de pesquisa e criando uma classe para diferenciar ela -->
+    <div class="barra-pesquisa">
+      <span class="icone-lupa">🔍</span>
+      <input type="text" placeholder="Buscar produtos..." />
+    </div>
+
+    
+    <!-- Div que agrupa os produtos -->
+    <div class="produtos">
+      <!-- Título da seção de ofertas -->
+      <p class="titulop"> Ofertas!!</p>
+
+      <!-- Atualizei o layout para os produtos aparecerem lado a lado usando flexbox -->
+      <div class="ofertas"> <!-- Agrupando todos os produtos em uma div para organizar melhor -->
+        <!-- Cartão de produto 1 -->
+        <div class="card-produto">
+          <!-- Adicionando imagem do produto -->
+          <img src="file:///C:/Users/kalle/Downloads/Placadevideo1-removebg-preview.png" alt="Placa de video">
+          <!-- Nome do produto -->
+          <p>Placa de Video 5070TI</p>
+          <!-- Adicionando imagem da avaliação do produto -->
+          <img src="estrelas.png" alt="avaliação" class="estrelas">
+          <!-- Preço do produto -->
+          <div class="preco-container">
+            <p class="preco-original">R$ 1.500,00</p>
+            <p class="preco-pix">R$ 1.350,00 no Pix <span class="badge-pix">-10% no Pix</span></p>
+            <p class="preco-cartao">ou 10x de R$ 150,00 sem juros</p>
+          </div>
+          <!-- Descrição do produto -->
+          <p class="Descricao">Placa de Video RTX 5070TI <br>Ótima para jogos e design</p>
+        </div>
+
+        <!-- Cartão de produto 2 -->
+        <div class="card-produto"> 
+            <!-- Adicionando imagem do produto -->
+      <img src="ChatGPT Image 9_04_2025, 18_58_37.png " alt="Memoria RAM" class="memoriaram">
+      <!-- Nome do produto -->
+     <p>Memoria Ram</p>
+      <!-- Adicionando imagem da avaliação do produto -->
+     <img src="estrelas.png" alt="avaliação" class="estrelas">
+    <div class="preco-container">
+     <p class="preco-original">R$ 300,00</p>
+     <p class="preco-pix">R$ 270,00 no Pix <span class="badge-pix">-10% no Pix</span></p>
+     <p class="preco-cartao">ou 3x de R$ 100,00 sem juros</p>
+   </div>
+
+        </div>
+
+        <!-- Cartão de produto 3 -->
+        <div class="card-produto">
+          <img src="file:///C:/Users/kalle/Downloads/monitor-removebg-preview.png" alt="Monitor" class="Monitor">
+          <p>Monitor</p>
+          <img src="estrelas.png" alt="avaliação" class="estrelas">
+          <div class="preco-container">
+            <p class="preco-original">R$ 700,00</p>
+            <p class="preco-pix">R$ 630,00 no Pix <span class="badge-pix">-10% no Pix</span></p>
+            <p class="preco-cartao">ou 7x de R$ 100,00 sem juros</p>
+          </div>
+          <p class="Descricao">Monitor 24 polegadas <br>Ótimo para jogos e design</p>
+        </div>
+      </div> <!-- Fim do agrupamento dos produtos -->
+    </div> <!-- Fim da div de produtos -->
+</body>
+<footer> 
+  <p><strong>Referências:</strong></p>
+  <ul>
+    <li>
+      <strong>:hover</strong><br>
+      <a href="https://css-tricks.com/almanac/selectors/h/hover/">CSS-Tricks - :hover</a><br>
+      Explicação detalhada sobre como usar o :hover para criar efeitos visuais no CSS.
+    </li>
+    <li>
+      <strong>Flexbox</strong><br>
+      <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS-Tricks - Flexbox</a><br>
+      Guia prático e completo sobre Flexbox, com exemplos claros e explicações sobre as propriedades.
+    </li>
+    <li>
+      <strong>Linear Gradient</strong><br>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient">MDN - linear-gradient()</a><br>
+      Explicação oficial sobre como usar a função linear-gradient no CSS.
+    </li>
+    <li>
+      <strong>Backdrop-filter</strong><br>
+      <a href="https://css-tricks.com/almanac/properties/b/backdrop-filter/">CSS-Tricks - backdrop-filter</a><br>
+      Artigo explicando como usar o backdrop-filter para criar efeitos de fundo e desfoque.
+    </li>
+    <li>
+      <strong>DOCTYPE</strong><br>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Doctype">MDN - Doctype</a><br>
+      Explicação do que é o DOCTYPE e sua importância no código HTML.
+    </li>
+    <li>
+      <strong>Rel (Atributo)</strong><br>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link#rel">MDN - Atributo rel</a><br>
+      Explicação sobre o atributo rel em elementos link, para definir o relacionamento entre o documento e o recurso vinculado.
+    </li>
+    <li>
+      <strong>&lt;meta name="viewport"&gt;</strong><br>
+      <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag">MDN - Meta Viewport</a><br>
+      Explicação sobre como a tag <meta name="viewport"> define o comportamento da página em dispositivos móveis.
+    </li>
+    <li>
+      <strong>Seletores de Classe no CSS</strong><br>
+      <a href="https://www.w3schools.com/css/css_selectors.asp">W3Schools - Seletor de Classe</a><br>
+      Guia sobre como usar seletores de classe em CSS para estilizar elementos.
+    </li>
+    <li>
+      <strong>Transições no CSS</strong><br>
+      <a href="https://css-tricks.com/almanac/properties/t/transition/">CSS-Tricks - Transições CSS</a><br>
+      Explicação sobre como usar transições no CSS para criar efeitos suaves de animação.
+    </li>
+    <li>
+      <strong>Box Shadow e Efeitos Visuais</strong><br>
+      <a href="https://css-tricks.com/almanac/properties/b/box-shadow/">CSS-Tricks - Box Shadow</a><br>
+      Como usar a propriedade box-shadow para criar efeitos visuais, como bordas e sombras.
+    </li>
+  </ul>
+</footer> 
+</html>
